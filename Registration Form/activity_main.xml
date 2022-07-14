@@ -11,8 +11,8 @@
         android:id="@+id/button"
         android:layout_width="197dp"
         android:layout_height="104dp"
-        android:onClick="clickMethod"
-        android:text="Register!"
+        android:onClick="clickMethod"  // <-- here is our onCLick listener we made that links to the "clickMethod" method.
+        android:text="Register!"  
         app:layout_constraintBottom_toTopOf="@+id/regFirst"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.93" />
 
     <TextView
-        android:id="@+id/regFirst"
+        android:id="@+id/regFirst"  // <-- every attribute here has a unique id
         android:layout_width="159dp"
         android:layout_height="24dp"
         android:layout_marginBottom="228dp"
